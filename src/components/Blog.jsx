@@ -12,8 +12,8 @@ export default function Blog() {
             View all
           </a>
         </div>
-        <div className="flex flex-col md:flex-row gap-3 justify-center items-center md:items-start">
-          <div className="max-w-[570px] max-h-[392px]">
+        <div className="flex flex-col md:flex-row gap-6 justify-center items-center lg:items-start">
+          <div className="max-w-[570px] md:max-h-[392px]">
             <div className="relative bg-slate-400">
               <img
                 src="./img/blog-1.jpg"
@@ -34,7 +34,7 @@ export default function Blog() {
               </div>
             </div>
             <div className="p-3">
-              <a href="/" className="no-underline text-[20px] lg:text-[24px]">
+              <a href="/" className="no-underline text-[18px] lg:text-[24px]">
                 Tips and tricks choosing a house
               </a>
               <p className="text-slate-500">
@@ -42,10 +42,10 @@ export default function Blog() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col self-stretch justify-between max-h-[392px] max-w-[570px]">
-            <div className="flex justify-between items-center">
+          <div className="flex flex-col self-stretch justify-between gap-y-4 md:gap-y-0 max-h-[392px] max-w-[570px] mx-auto">
+            <div className="flex justify-between">
               <div className="p-3 lg:w-1/2">
-                <a href="/" className="text-xl lg:text-[24px] lg:mb-8">
+                <a href="/" className="text-[18px] lg:text-[24px] lg:mb-8">
                   Creating a clean and elegant home
                 </a>
                 <p className="text-slate-500">Albert Firdaus</p>
@@ -56,9 +56,9 @@ export default function Blog() {
                 className="max-w-[200px] lg:max-w-[286px]"
               />
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between">
               <div className="p-3 lg:w-1/2">
-                <a href="/" className="text-xl lg:text-[24px] lg:mb-8">
+                <a href="/" className="text-[18px] lg:text-[24px] lg:mb-8">
                   Good paint color for home
                 </a>
                 <p className="text-slate-500">Rusy Firdaus</p>

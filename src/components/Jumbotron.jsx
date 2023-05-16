@@ -22,12 +22,12 @@ export default function Jumbotron() {
           className="max-w-[1305px] w-full lg:mb-[-70px]"
         />
         <div className="flex flex-col lg:flex-row my-6 lg:justify-end max-w-screen-xl">
-          <div className="flex justify-center lg:justify-between px-3 py-4 lg:px-10 lg:py-6 flex-wrap gap-y-4 bg-white shadow-lg">
-            <div className="basis-[200px] lg:basis-0 lg:mr-6 text-center lg:text-start">
-              <label htmlFor="" className="lg:text-base">
+          <div className="flex justify-around md:justify-center lg:justify-between px-3 py-4 lg:px-10 lg:py-6 flex-wrap gap-y-4 bg-white shadow-lg">
+            <div className="mx-3 text-center lg:text-start">
+              <label htmlFor="" className="text-sm lg:text-base">
                 Select City
               </label>
-              <select className="border-none bg-transparent focus:outline-none block lg:text-base mx-auto lg:mx-0">
+              <select className="border-none bg-transparent focus:outline-none block text-sm lg:text-base mx-auto lg:mx-0">
                 <option value="Jakarta" selected>
                   Jakarta
                 </option>
@@ -36,11 +36,11 @@ export default function Jumbotron() {
                 <option value="Surabaya">Surabaya</option>
               </select>
             </div>
-            <div className="basis-[200px] lg:basis-0 lg:mr-6 text-center lg:text-start">
-              <label htmlFor="" className="lg:text-base">
+            <div className="mx-3 text-center lg:text-start">
+              <label htmlFor="" className="text-sm lg:text-base">
                 Price
               </label>
-              <select className="border-none bg-transparent focus:outline-none block lg:text-base mx-auto lg:mx-0">
+              <select className="border-none bg-transparent focus:outline-none block text-sm lg:text-base mx-auto lg:mx-0">
                 <option value="" selected>
                   $1000 - $2000
                 </option>
@@ -48,11 +48,11 @@ export default function Jumbotron() {
                 <option value="">$3500 - $4000</option>
               </select>
             </div>
-            <div className="basis-[200px] lg:basis-0 lg:mr-6 text-center lg:text-start">
-              <label htmlFor="" className="lg:text-base">
+            <div className="mx-3 text-center lg:text-start">
+              <label htmlFor="" className="text-sm lg:text-base">
                 Rooms
               </label>
-              <select className="border-none bg-transparent focus:outline-none block lg:text-base mx-auto lg:mx-0">
+              <select className="border-none bg-transparent focus:outline-none block text-sm lg:text-base mx-auto lg:mx-0">
                 <option value="" selected>
                   1 Room
                 </option>
@@ -60,11 +60,11 @@ export default function Jumbotron() {
                 <option value="">3 Rooms</option>
               </select>
             </div>
-            <div className="basis-[200px] lg:basis-0 lg:mr-6 text-center lg:text-start">
-              <label htmlFor="" className="lg:text-base">
+            <div className="mx-3 text-center lg:text-start">
+              <label htmlFor="" className="text-sm lg:text-base">
                 Footage
               </label>
-              <select className="border-none bg-transparent focus:outline-none block lg:text-base mx-auto lg:mx-0">
+              <select className="border-none bg-transparent focus:outline-none block text-sm lg:text-base mx-auto lg:mx-0">
                 <option value="" selected>
                   2 Footage
                 </option>
