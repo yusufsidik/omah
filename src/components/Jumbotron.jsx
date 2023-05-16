@@ -17,7 +17,7 @@ export default function Jumbotron() {
       </div>
       <div className="w-full max-w-screen-xl mx-auto bg-transparent">
         <img
-          src="/hero-img.jpg"
+          src="./img/hero-img.jpg"
           alt="hero"
           className="max-w-[1305px] w-full lg:mb-[-70px]"
         />

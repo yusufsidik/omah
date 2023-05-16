@@ -17,7 +17,7 @@ export default function Review() {
             <div className="max-w-[300px] lg:max-w-[570px] mx-auto mb-8 lg:mb-0">
               <div className="relative shadow-lg overflow-hidden">
                 <img
-                  src="/review-1.jpg"
+                  src="./img/review-1.jpg"
                   alt="review"
                   className="w-full mx-auto bg-cover hover:scale-105 transition-all ease-in-out min-w-[300px]"
                 />
@@ -36,7 +36,7 @@ export default function Review() {
             <div className="max-w-[300px] lg:max-w-[570px] mx-auto mb-8 lg:mb-0">
               <div className="relative shadow-lg overflow-hidden">
                 <img
-                  src="/review-2.jpg"
+                  src="./img/review-2.jpg"
                   alt="review"
                   className="w-full mx-auto bg-cover hover:scale-105 transition-all ease-in-out min-w-[300px]"
                 />
@@ -54,7 +54,7 @@ export default function Review() {
             <div className="max-w-[300px] lg:max-w-[570px] mx-auto mb-8 lg:mb-0">
               <div className="relative shadow-lg overflow-hidden">
                 <img
-                  src="/review-1.jpg"
+                  src="./img/review-1.jpg"
                   alt="review"
                   className="w-full mx-auto bg-cover hover:scale-105 transition-all ease-in-out min-w-[300px]"
                 />

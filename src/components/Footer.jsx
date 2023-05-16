@@ -13,7 +13,7 @@ export default function Footer() {
             rel="noreferrer"
           >
             <img
-              src="/instagram.png"
+              src="./img/instagram.png"
               alt="instagram"
               className="w-[24px] lg:w-[32px] h-[24px] lg:h-[32px]"
             />
@@ -24,14 +24,14 @@ export default function Footer() {
             rel="noreferrer"
           >
             <img
-              src="/facebook.png"
+              src="./img/facebook.png"
               alt="facebook"
               className="w-[24px] lg:w-[32px] h-[24px] lg:h-[32px]"
             />
           </a>
           <a href="https://www.instagram.com/dzakimuzh/">
             <img
-              src="/twitter.png"
+              src="./img/twitter.png"
               alt="twitter"
               className="w-[24px] lg:w-[32px] h-[24px] lg:h-[32px]"
             />

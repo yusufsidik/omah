@@ -16,13 +16,13 @@ export default function Blog() {
           <div className="max-w-[570px] max-h-[392px]">
             <div className="relative bg-slate-400">
               <img
-                src="/blog-1.jpg"
+                src="./img/blog-1.jpg"
                 alt="blog"
                 className="w-full max-w-[570px] max-h-[392px]"
               />
               <div className="absolute py-2 px-5 bottom-0 bg-white flex items-center">
                 <img
-                  src="/blog-user.jpg"
+                  src="./img/blog-user.jpg"
                   alt="user"
                   width="50px"
                   className="rounded-full inline mr-3"
@@ -51,7 +51,7 @@ export default function Blog() {
                 <p className="text-slate-500">Albert Firdaus</p>
               </div>
               <img
-                src="/blog-2.jpg"
+                src="./img/blog-2.jpg"
                 alt="blog"
                 className="max-w-[200px] lg:max-w-[286px]"
               />
@@ -64,7 +64,7 @@ export default function Blog() {
                 <p className="text-slate-500">Rusy Firdaus</p>
               </div>
               <img
-                src="/blog-3.jpg"
+                src="./img/blog-3.jpg"
                 alt="blog"
                 className="max-w-[200px] lg:max-w-[286px]"
               />

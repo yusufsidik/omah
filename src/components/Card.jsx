@@ -29,7 +29,7 @@ export default function Card() {
             <div className="relative shadow-lg overflow-hidden">
               <a href="/">
                 <img
-                  src="/rumah-1.jpg"
+                  src="./img/rumah-1.jpg"
                   alt="rumah"
                   className="w-full mx-auto bg-cover hover:scale-105 transition-all ease-in-out"
                 />
@@ -42,7 +42,7 @@ export default function Card() {
               href="/"
               className="absolute top-6 right-6 p-3 rounded-full bg-slate-100 hover:bg-slate-200"
             >
-              <img src="/love.png" alt="love" className="max-w-[28px]" />
+              <img src="./img/love.png" alt="love" className="max-w-[28px]" />
             </a>
 
             <div className="my-4 px-2">
@@ -65,7 +65,7 @@ export default function Card() {
             <div className="relative shadow-lg overflow-hidden">
               <a href="/">
                 <img
-                  src="/rumah-2.jpg"
+                  src="./img/rumah-2.jpg"
                   alt="rumah"
                   className="w-full mx-auto bg-cover hover:scale-105 transition-all ease-in-out"
                 />
@@ -78,7 +78,7 @@ export default function Card() {
               href="/"
               className="absolute top-6 right-6 p-3 rounded-full bg-slate-100 hover:bg-slate-200"
             >
-              <img src="/love.png" alt="love" className="max-w-[28px]" />
+              <img src="./img/love.png" alt="love" className="max-w-[28px]" />
             </a>
 
             <div className="my-4 px-2">
@@ -101,7 +101,7 @@ export default function Card() {
             <div className="relative shadow-lg overflow-hidden">
               <a href="/">
                 <img
-                  src="/rumah-3.jpg"
+                  src="./img/rumah-3.jpg"
                   alt="rumah"
                   className="w-full mx-auto bg-cover hover:scale-105 transition-all ease-in-out"
                 />
@@ -114,7 +114,7 @@ export default function Card() {
               href="/"
               className="absolute top-6 right-6 p-3 rounded-full bg-slate-100 hover:bg-slate-200"
             >
-              <img src="/love.png" alt="love" className="max-w-[28px]" />
+              <img src="./img/love.png" alt="love" className="max-w-[28px]" />
             </a>
 
             <div className="my-4 px-2">
