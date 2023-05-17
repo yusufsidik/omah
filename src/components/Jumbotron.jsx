@@ -1,3 +1,5 @@
+import Lazyload from "react-lazyload";
+
 export default function Jumbotron() {
   return (
     <div>
@@ -16,11 +18,13 @@ export default function Jumbotron() {
         </div>
       </div>
       <div className="w-full max-w-screen-xl mx-auto bg-transparent">
-        <img
-          src="./img/hero-img.jpg"
-          alt="hero"
-          className="max-w-[1305px] w-full lg:mb-[-70px]"
-        />
+        <Lazyload>
+          <img
+            src="./img/hero-img.jpg"
+            alt="hero"
+            className="max-w-[1305px] w-full lg:mb-[-70px]"
+          />
+        </Lazyload>
         <div className="flex flex-col lg:flex-row my-6 lg:justify-end max-w-screen-xl">
           <div className="flex justify-around md:justify-center lg:justify-between px-3 py-4 lg:px-10 lg:py-6 flex-wrap gap-y-4 bg-white shadow-lg">
             <div className="mx-3 text-center lg:text-start">

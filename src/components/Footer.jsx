@@ -4,7 +4,14 @@ export default function Footer() {
       <div className="max-w-screen-xl mx-auto flex justify-between px-4 items-center">
         <div className="text-slate-500 text-sm md:text-lg">
           Omah by
-          <a href="https://www.instagram.com/dzakimuzh/"> @dzakimuzh</a>
+          <a
+            href="https://www.instagram.com/dzakimuzh/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            @dzakimuzh
+          </a>
         </div>
         <div className="flex jutify-center gap-x-2">
           <a

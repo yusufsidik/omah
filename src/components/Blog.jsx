@@ -1,3 +1,5 @@
+import Lazyload from "react-lazyload";
+
 export default function Blog() {
   return (
     <div className="mt-20 lg:mt-40">
@@ -15,18 +17,22 @@ export default function Blog() {
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center lg:items-start">
           <div className="max-w-[570px] md:max-h-[392px]">
             <div className="relative bg-slate-400">
-              <img
-                src="./img/blog-1.jpg"
-                alt="blog"
-                className="w-full max-w-[570px] max-h-[392px]"
-              />
-              <div className="absolute py-2 px-5 bottom-0 bg-white flex items-center">
+              <Lazyload>
                 <img
-                  src="./img/blog-user.jpg"
-                  alt="user"
-                  width="50px"
-                  className="rounded-full inline mr-3"
+                  src="./img/blog-1.jpg"
+                  alt="blog"
+                  className="w-full max-w-[570px] max-h-[392px]"
                 />
+              </Lazyload>
+              <div className="absolute py-2 px-5 bottom-0 bg-white flex items-center">
+                <Lazyload>
+                  <img
+                    src="./img/blog-user.jpg"
+                    alt="user"
+                    width="50px"
+                    className="rounded-full inline mr-3"
+                  />
+                </Lazyload>
                 <div className="flex flex-col justify-center">
                   <span className="text-[13px]">Yusuf firdaus</span>
                   <span className="text-[13px] text-slate-500">Admin</span>
@@ -42,7 +48,7 @@ export default function Blog() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col self-stretch justify-between gap-y-4 md:gap-y-0 max-h-[392px] max-w-[570px] mx-auto">
+          <div className="flex flex-col self-stretch justify-between gap-y-4 md:gap-y-0 max-h-[392px] max-w-[570px] mx-auto lg:mx-0">
             <div className="flex justify-between">
               <div className="p-3 lg:w-1/2">
                 <a href="/" className="text-[18px] lg:text-[24px] lg:mb-8">
@@ -50,11 +56,13 @@ export default function Blog() {
                 </a>
                 <p className="text-slate-500">Albert Firdaus</p>
               </div>
-              <img
-                src="./img/blog-2.jpg"
-                alt="blog"
-                className="max-w-[200px] lg:max-w-[286px]"
-              />
+              <Lazyload>
+                <img
+                  src="./img/blog-2.jpg"
+                  alt="blog"
+                  className="max-w-[200px] lg:max-w-[286px]"
+                />
+              </Lazyload>
             </div>
             <div className="flex justify-between">
               <div className="p-3 lg:w-1/2">
@@ -63,11 +71,13 @@ export default function Blog() {
                 </a>
                 <p className="text-slate-500">Rusy Firdaus</p>
               </div>
-              <img
-                src="./img/blog-3.jpg"
-                alt="blog"
-                className="max-w-[200px] lg:max-w-[286px]"
-              />
+              <Lazyload>
+                <img
+                  src="./img/blog-3.jpg"
+                  alt="blog"
+                  className="max-w-[200px] lg:max-w-[286px]"
+                />
+              </Lazyload>
             </div>
           </div>
         </div>
